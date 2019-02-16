@@ -8,7 +8,7 @@ RUN apt-get -y install python
 RUN apt-get -y install python-pip
 RUN exit
 
-RUN git config --global user.name "anna-firefox"
+RUN git config --global user.name "anna-chrome"
 RUN git config --global user.email "patrik.pihlstrom@gmail.com"
 RUN git clone https://github.com/patrikpihlstrom/anna.git
 RUN cd anna && python setup.py install
